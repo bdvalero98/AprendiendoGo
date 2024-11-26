@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"AprendiendoGo/variables"
 )
 
 func main() {
-	fmt.Println("Hola Mundo")
+	variables.MuestroEnteros()
 }
