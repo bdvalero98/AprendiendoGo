@@ -1,9 +1,6 @@
 package main
 
-import (
-	"AprendiendoGo/ejercicios"
-	"fmt"
-)
+import "AprendiendoGo/teclado"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(3529)
@@ -23,9 +20,11 @@ func main() {
 		fmt.Println("Esto es darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
-	number, texto := ejercicios.ConvertiraEntero("3454")
+	number, texto := ejercicios.ConvertiraEntero("349082")
 	fmt.Println(number)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	teclado.IngresoNumeros()
 }
