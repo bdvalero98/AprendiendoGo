@@ -2,9 +2,11 @@ package main
 
 import (
 	"AprendiendoGo/variables"
+	"fmt"
 )
 
 func main() {
-	variables.MuestroEnteros()
-	variables.RestoVariables()
+	estado, texto := variables.ConviertoaTexto(3529)
+	fmt.Println(estado)
+	fmt.Println(texto)
 }
