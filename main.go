@@ -1,14 +1,14 @@
 package main
 
 import (
+	"AprendiendoGo/ejercicios"
 	"fmt"
-	"runtime"
 )
 
 func main() {
-	//estado, texto := variables.ConviertoaTexto(3529)
-	//fmt.Println(estado)
-	//fmt.Println(texto)
+	/*estado, texto := variables.ConviertoaTexto(3529)
+	fmt.Println(estado)
+	fmt.Println(texto)
 
 	if os := runtime.GOOS; os == "linux." || os == "OS X." {
 		fmt.Println("Esto no es Windows es: ", os)
@@ -23,5 +23,9 @@ func main() {
 		fmt.Println("Esto es darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}
+	}*/
+
+	number, texto := ejercicios.ConvertiraEntero("3454")
+	fmt.Println(number)
+	fmt.Println(texto)
 }
